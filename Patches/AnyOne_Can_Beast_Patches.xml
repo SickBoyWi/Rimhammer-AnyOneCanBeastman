@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimhammer - The End Times - Beastmen</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Cygor"]/alienRace/raceRestriction/apparelList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Cygor"]/alienRace/raceRestriction/weaponList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Cygor"]/alienRace/raceRestriction/onlyUseRaceRestrictedWeapons</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Cygor"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Khornegor"]/alienRace/raceRestriction/apparelList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Khornegor"]/alienRace/raceRestriction/buildingList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Khornegor"]/alienRace/raceRestriction/recipeList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Khornegor"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Pestigor"]/alienRace/raceRestriction/apparelList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Pestigor"]/alienRace/raceRestriction/buildingList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Pestigor"]/alienRace/raceRestriction/recipeList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Pestigor"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Slaangor"]/alienRace/raceRestriction/apparelList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Slaangor"]/alienRace/raceRestriction/buildingList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Slaangor"]/alienRace/raceRestriction/recipeList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Slaangor"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Tzaangor"]/alienRace/raceRestriction/apparelList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Tzaangor"]/alienRace/raceRestriction/buildingList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Tzaangor"]/alienRace/raceRestriction/recipeList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Tzaangor"]/alienRace/raceRestriction/weaponList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Tzaangor"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Gor"]/alienRace/raceRestriction/apparelList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Gor"]/alienRace/raceRestriction/buildingList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Gor"]/alienRace/raceRestriction/recipeList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Gor"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Ungor"]/alienRace/raceRestriction/buildingList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Ungor"]/alienRace/raceRestriction/recipeList</xpath>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Bullgor"]/alienRace/raceRestriction/apparelList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Bullgor"]/alienRace/raceRestriction/buildingList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Bullgor"]/alienRace/raceRestriction/weaponList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_Bullgor"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_BrayGor"]/alienRace/raceRestriction/apparelList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_BrayGor"]/alienRace/raceRestriction/buildingList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_BrayGor"]/alienRace/raceRestriction/recipeList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_BrayGor"]/alienRace/raceRestriction/weaponList</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_BrayGor"]/alienRace/raceRestriction/onlyUseRaceRestrictedWeapons</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//AlienRace.ThingDef_AlienRace[defName = "RH_TET_Beastmen_Alien_BrayGor"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
